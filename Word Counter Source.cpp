@@ -1,4 +1,4 @@
-Here's the C++ solution to the Moby Dick word counter problem posed in class. Solved it without functions. Sorry.
+Here's the C++ solution to the Moby Dick word counter problem posed in class. Solved it without functions, and it has comments. Sorry.
 
 Corbin Matamoros
 1/23/2018
