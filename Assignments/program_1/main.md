@@ -1,3 +1,5 @@
+```cpp
+
 /*
 @ProgramName: Program-1
 @Author: Corbin Matamoros
@@ -206,3 +208,4 @@ int main()
 	ofile.close();
 	return 0;
 }
+```
