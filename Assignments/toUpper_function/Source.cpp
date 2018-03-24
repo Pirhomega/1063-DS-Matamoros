@@ -1,4 +1,8 @@
-```cpp
+/*Matamoros, Corbin
+1063 Data Structures - Griffin
+3/24/2018
+This program converts all lowercase letters in a word to uppercase*/
+
 #include <string>
 #include<iostream>
 #include<fstream>
@@ -34,4 +38,3 @@ int main()
 	infile.close();
 	return 0;
 }
-```
