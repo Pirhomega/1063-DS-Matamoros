@@ -1,0 +1,15 @@
+/*I'm aware this is not the real one, but this is as far as I got while debugging*/
+
+
+push elephant-seal
+push crow
+push water-buffalo
+pop
+pop
+pop
+pop
+push hippopotamus
+push caterpillar
+push giant-panda
+pop
+pop
