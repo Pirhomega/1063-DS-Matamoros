@@ -1,0 +1,11 @@
+Animals Popped Off the Queue
+
+1 crow
+2 elephant-seal
+3 water-buffalo
+4 FAILURE
+5 giant-panda
+6 caterpillar
+
+Animals Remaining on the Queue (in order of priority)
+
