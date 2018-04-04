@@ -1,104 +1,104 @@
 Animals Popped Off the Queue
 
-1 crow
-2 elephant-seal
-3 giant-panda
-4 caterpillar
-5 hippopotamus
-6 water-buffalo
-7 wombat
-8 guinea-fowl
-9 trout
-10 hummingbird
-11 sand-dollar
-12 FAILURE
-13 FAILURE
-14 salmon
-15 chinchilla
-16 chimpanzee
-17 FAILURE
-18 FAILURE
-19 boar
-20 oryx
-21 polar-bear
-22 FAILURE
-23 donkey
-24 salamander
-25 woodpecker
-26 FAILURE
-27 FAILURE
-28 human
-29 turkey
-30 squirrel
-31 penguin
-32 albatross
-33 hawk
-34 clam
-35 toad
-36 barracuda
-37 butterfly
-38 cormorant
-39 anteater
-40 pheasant
-41 wolverine
-42 crocodile
-43 tapir
-44 dinosaur
-45 wren
-46 frog
-47 pony
-48 kangaroo
-49 goldfish
-50 dogfish
-51 mandrill
-52 lyrebird
-53 dotterel
-54 sea-lion
-55 porpoise
-56 kookabura
-57 partridge
-58 porcupine
-59 cheetah
-60 reindeer
-61 moose
-62 koala
-63 buffalo
-64 stinkbug
-65 fly
-66 caribou
-67 starling
-68 fox
-69 quail
-70 finch
-71 heron
-72 shrew
-73 guanaco
-74 opossum
-75 gnu
-76 bison
-77 walrus
-78 dog
-79 ape
-80 eland
-81 viper
-82 mouse
-83 ibis
-84 panther
-85 ostrich
-86 mallard
-87 kouprey
-88 wasp
-89 deer
-90 spider
-91 narwhal
-92 louse
-93 vulture
-94 termite
-95 goose
-96 baboon
-97 alpaca
-98 quetzal
-99 herring
+  1 crow
+  2 elephant-seal
+  3 giant-panda
+  4 caterpillar
+  5 hippopotamus
+  6 water-buffalo
+  7 wombat
+  8 guinea-fowl
+  9 trout
+ 10 hummingbird
+ 11 sand-dollar
+ 12 ***FAILURE***
+ 13 ***FAILURE***
+ 14 salmon
+ 15 chinchilla
+ 16 chimpanzee
+ 17 ***FAILURE***
+ 18 ***FAILURE***
+ 19 boar
+ 20 oryx
+ 21 polar-bear
+ 22 ***FAILURE***
+ 23 donkey
+ 24 salamander
+ 25 woodpecker
+ 26 ***FAILURE***
+ 27 ***FAILURE***
+ 28 human
+ 29 turkey
+ 30 squirrel
+ 31 penguin
+ 32 albatross
+ 33 hawk
+ 34 clam
+ 35 toad
+ 36 barracuda
+ 37 butterfly
+ 38 cormorant
+ 39 anteater
+ 40 pheasant
+ 41 wolverine
+ 42 crocodile
+ 43 tapir
+ 44 dinosaur
+ 45 wren
+ 46 frog
+ 47 pony
+ 48 kangaroo
+ 49 goldfish
+ 50 dogfish
+ 51 mandrill
+ 52 lyrebird
+ 53 dotterel
+ 54 sea-lion
+ 55 porpoise
+ 56 kookabura
+ 57 partridge
+ 58 porcupine
+ 59 cheetah
+ 60 reindeer
+ 61 moose
+ 62 koala
+ 63 buffalo
+ 64 stinkbug
+ 65 fly
+ 66 caribou
+ 67 starling
+ 68 fox
+ 69 quail
+ 70 finch
+ 71 heron
+ 72 shrew
+ 73 guanaco
+ 74 opossum
+ 75 gnu
+ 76 bison
+ 77 walrus
+ 78 dog
+ 79 ape
+ 80 eland
+ 81 viper
+ 82 mouse
+ 83 ibis
+ 84 panther
+ 85 ostrich
+ 86 mallard
+ 87 kouprey
+ 88 wasp
+ 89 deer
+ 90 spider
+ 91 narwhal
+ 92 louse
+ 93 vulture
+ 94 termite
+ 95 goose
+ 96 baboon
+ 97 alpaca
+ 98 quetzal
+ 99 herring
 100 hyena
 101 eel
 102 eagle
@@ -218,30 +218,30 @@ Animals Popped Off the Queue
 
 Animals Remaining on the Queue (in order of priority)
 
-1 mosquito
-2 flamingo
-3 hedgehog
-4 capybara
-5 mongoose
-6 antelope
-7 scorpion
-8 seahorse
-9 red-deer
-10 cockroach
-11 jellyfish
-12 goldfinch
-13 cassowary
-14 alligator
-15 armadillo
-16 dragonfly
-17 red-panda
-18 sandpiper
-19 spoonbill
-20 rhinoceros
-21 sea-urchin
-22 kingfisher
-23 guinea-pig
-24 nightingale
-25 grasshopper
-26 prairie-dog
-27 komodo-dragon
+  1 mosquito
+  2 flamingo
+  3 hedgehog
+  4 capybara
+  5 mongoose
+  6 antelope
+  7 scorpion
+  8 seahorse
+  9 red-deer
+ 10 cockroach
+ 11 jellyfish
+ 12 goldfinch
+ 13 cassowary
+ 14 alligator
+ 15 armadillo
+ 16 dragonfly
+ 17 red-panda
+ 18 sandpiper
+ 19 spoonbill
+ 20 rhinoceros
+ 21 sea-urchin
+ 22 kingfisher
+ 23 guinea-pig
+ 24 nightingale
+ 25 grasshopper
+ 26 prairie-dog
+ 27 komodo-dragon
