@@ -218,30 +218,30 @@ Animals Popped Off the Queue
 
 Animals Remaining on the Queue (in order of priority)
 
-  1 mosquito
-  2 flamingo
-  3 hedgehog
-  4 capybara
-  5 mongoose
-  6 antelope
-  7 scorpion
-  8 seahorse
-  9 red-deer
- 10 cockroach
- 11 jellyfish
- 12 goldfinch
- 13 cassowary
- 14 alligator
- 15 armadillo
- 16 dragonfly
- 17 red-panda
- 18 sandpiper
- 19 spoonbill
- 20 rhinoceros
- 21 sea-urchin
- 22 kingfisher
- 23 guinea-pig
- 24 nightingale
- 25 grasshopper
- 26 prairie-dog
- 27 komodo-dragon
+1 mosquito 
+2 flamingo 
+3 hedgehog 
+4 capybara 
+5 mongoose 
+6 antelope 
+7 scorpion 
+8 seahorse 
+9 red-deer 
+10 cockroach 
+11 jellyfish 
+12 goldfinch 
+13 cassowary 
+14 alligator 
+15 armadillo 
+16 dragonfly 
+17 red-panda 
+18 sandpiper 
+19 spoonbill 
+20 rhinoceros 
+21 sea-urchin 
+22 kingfisher 
+23 guinea-pig 
+24 nightingale 
+25 grasshopper 
+26 prairie-dog 
+27 komodo-dragon 
