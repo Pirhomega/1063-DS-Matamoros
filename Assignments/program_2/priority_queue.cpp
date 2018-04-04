@@ -1,19 +1,16 @@
 /*
 Author:		Matamoros, Corbin
-Due Date:	4/2/2018
+Due Date:	4/4/2018
 Class:		Data Structures & ADT - Griffin
 Program:	Priority Queue
 Description: 
-			This program will create a list-based queue of animal names to be
+		This program will create a list-based queue of animal names to be
 read in from an input file. It will assign a priority level to each name -
 larger words receive a lower piority than smaller ones - and place smaller 
-words towards the front of the queue. Words of the small length will be 
-ordered alphabetically.
+words towards the front of the queue.
 Disclaimer:	I wanted to learn to re-create the program 2 assignment from 
 			scratch, and therefore this program will not be identical to the
-			one I was told to copy and use. Also, as of the due date, this
-			program does not work for the assignment input file. It works for
-			smaller inputs, though.
+			one I was told to copy and use.
 */
 
 #include <iostream>
