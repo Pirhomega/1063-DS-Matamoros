@@ -19,6 +19,7 @@ Disclaimer:	I wanted to learn to re-create the program 2 assignment from
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <iomanip>
 using namespace std;
 
 /*Struct: each item in the queue list will hold the word, its length, and a 
@@ -142,13 +143,10 @@ public:
 		string popWord = " ";
 
 		/*if Front is NULL, then there is no word to pop off the list. Return
-		an error message and a space so that the program continues to read
-		in the next item from the input file*/
+		an error message and a filler word so that the program continues to 
+		read in the next item from the input file*/
 		if (Front == NULL)
-		{
-			cout << "error: cannot pop off empty queue." << '\n';
-			return "FAILURE";
-		}
+			return "***FAILURE***"; //the filler word
 
 		//initiates for cases when there are more than 2 items in the queue
 		else if (Front != Rear)
@@ -189,18 +187,21 @@ public:
 	*/
 	void print(ofstream &outfile)
 	{
-		int i = 1;
+		int j = 1;
 		Node *temp = Front;
+
+		/*Front could be NULL due to the statement running after that last
+		item was popped off the queue (in the pop function, if Front == Rear)*/
 		if (Front == NULL)
 		{
 			outfile << "Queue is empty.\n";
 			return;
 		}
-		while (temp)
+		while (temp) //otherwise, travel down the list and print it out
 		{
-			outfile << i << " " << temp->word << '\n';
+			outfile << setw(3) << j << " " << temp->word << '\n';
 			temp = temp->next;
-			i++;
+			j++;
 		}
 	}
 };
@@ -224,22 +225,15 @@ int main()
 		if (inputCommand == "push")
 		{
 			infile >> inputWord;
-			/*cout << "Push " << inputWord << "?\n";
-			system("pause");*/
 			Q.push(inputWord, inputWord.length());
-			/*cout << "Success!\n";
-			system("pause");*/
 		}
 
 		/*if the while loop read in pop as an input command, the program will
 		call the pop function above and print it to an output file*/
 		else
 		{
-			/*cout << "Pop?\n";
-			system("pause");*/
 			animal = Q.pop();
-			//cout << "Success!\n";
-			outfile << i << " " << animal << '\n';
+			outfile << setw(3) << i << " " << animal << '\n';
 			i++;
 		}
 	}
