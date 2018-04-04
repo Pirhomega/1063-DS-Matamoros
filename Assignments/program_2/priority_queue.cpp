@@ -21,8 +21,8 @@ Disclaimer:	I wanted to learn to re-create the program 2 assignment from
 #include <string>
 using namespace std;
 
-//Struct: each item in the queue list will hold the word, its length, and a pointer
-//to the next item in the list
+/*Struct: each item in the queue list will hold the word, its length, and a 
+pointer to the next item in the list*/
 struct Node
 {
 	string word;
@@ -77,8 +77,8 @@ public:
 		{
 			Front = temp;
 			Rear = temp;
-			Traverser = Front;
-			Referencer = Traverser;
+			Traverser = temp;
+			Referencer = temp;
 		}
 		else
 		{
@@ -89,6 +89,7 @@ public:
 				temp->next = Front;
 				Front = temp;
 				Traverser = Front;
+				Referencer = Front;
 			}
 			
 			/*runs if the new word is larger than the largest word 
@@ -152,10 +153,10 @@ public:
 		//initiates for cases when there are more than 2 items in the queue
 		else if (Front != Rear)
 		{
-			popWord = Front->word;
+			popWord = temp->word;
 			Front = Front->next;
 			Traverser = Front;
-			Referencer = Traverser;
+			Referencer = Front;
 			delete temp;
 			return popWord;
 		}
@@ -166,8 +167,12 @@ public:
 		*/
 		else if (Front == Rear)
 		{
-			popWord = Front->word;
-			Front = Rear = Traverser = Referencer = NULL;
+			popWord = temp->word;
+			Front = NULL;
+			Rear = NULL;
+			Traverser = NULL;
+			Referencer = NULL;
+			delete temp;
 			return popWord;
 		}
 	}
@@ -182,22 +187,21 @@ public:
 		Returns: 
 			void
 	*/
-	void print()
+	void print(ofstream &outfile)
 	{
 		int i = 1;
-		Traverser = Front;
+		Node *temp = Front;
 		if (Front == NULL)
 		{
-			cout << "Queue is empty.\n";
+			outfile << "Queue is empty.\n";
 			return;
 		}
-		while (Traverser != Rear)
+		while (temp)
 		{
-			cout << i << " " << Traverser->word << '\n';
-			Traverser = Traverser->next;
+			outfile << i << " " << temp->word << '\n';
+			temp = temp->next;
 			i++;
 		}
-		cout << i << " " << Traverser->word << '\n';
 	}
 };
 int main()
@@ -220,14 +224,21 @@ int main()
 		if (inputCommand == "push")
 		{
 			infile >> inputWord;
+			/*cout << "Push " << inputWord << "?\n";
+			system("pause");*/
 			Q.push(inputWord, inputWord.length());
+			/*cout << "Success!\n";
+			system("pause");*/
 		}
 
 		/*if the while loop read in pop as an input command, the program will
 		call the pop function above and print it to an output file*/
 		else
 		{
+			/*cout << "Pop?\n";
+			system("pause");*/
 			animal = Q.pop();
+			//cout << "Success!\n";
 			outfile << i << " " << animal << '\n';
 			i++;
 		}
@@ -237,6 +248,6 @@ int main()
 
 	/*after popping off all value commanded by the input file, the program will
 	print off whatever words are still within the list-based queue.*/
-	Q.print();
+	Q.print(outfile);
 	return 0;
 }
