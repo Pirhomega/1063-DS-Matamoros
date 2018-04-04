@@ -5,14 +5,14 @@ Class:		Data Structures & ADT - Griffin
 Program:	Priority Queue
 Description: 
 			This program will create a list-based queue of animal names to be
-read in from an input file. It will assign a priority level to each name - 
+read in from an input file. It will assign a priority level to each name -
 larger words receive a lower piority than smaller ones - and place smaller 
-words towards the front of the queue. Words of the small length will be ordered
-alphabetically
+words towards the front of the queue. Words of the small length will be 
+ordered alphabetically.
 Disclaimer:	I wanted to learn to re-create the program 2 assignment from 
 			scratch, and therefore this program will not be identical to the
 			one I was told to copy and use. Also, as of the due date, this
-			program does not work for the assignment input file. It works for 
+			program does not work for the assignment input file. It works for
 			smaller inputs, though.
 */
 
@@ -22,7 +22,7 @@ Disclaimer:	I wanted to learn to re-create the program 2 assignment from
 #include <iomanip>
 using namespace std;
 
-/*Struct: each item in the queue list will hold the word, its length, and a 
+/*Struct: each item in the queue list will hold the word, its length, and a
 pointer to the next item in the list*/
 struct Node
 {
@@ -62,7 +62,7 @@ public:
 	
 	/*	FunctionName: push
 		Description:
-			Adds words to the list-based queue and orders them smallest to 
+			Adds words to the list-based queue and orders them smallest to
 			largest, starting at the front with the smallest and ending at the
 			rear with the largest
 		Params:
@@ -101,7 +101,7 @@ public:
 				Rear = temp;
 			}
 			
-			/*runs if the new word is neither smaller nor larger than the 
+			/*runs if the new word is neither smaller nor larger than the
 			smallest and largest word*/
 			else
 			{
@@ -178,8 +178,8 @@ public:
 	/*	FunctionName: print
 		Description:
 			Will print off whatever words are in the queue at any time. It 
-			does this by using the traverser pointer to travel through the list
-			and cout the word to which it points
+			does this by using the traverser pointer to travel through the 
+			list and cout the word to which it points
 		Params:
 			none
 		Returns: 
@@ -199,7 +199,7 @@ public:
 		}
 		while (temp) //otherwise, travel down the list and print it out
 		{
-			outfile << setw(3) << j << " " << temp->word << '\n';
+			outfile << j << " " << temp->word << " " << '\n';
 			temp = temp->next;
 			j++;
 		}
@@ -240,8 +240,8 @@ int main()
 	outfile << '\n' << "Animals Remaining on the Queue (in order of priority)"
 		<< '\n' << '\n';
 
-	/*after popping off all value commanded by the input file, the program will
-	print off whatever words are still within the list-based queue.*/
+	/*after popping off all value commanded by the input file, the program 
+	will print off whatever words are still within the list-based queue.*/
 	Q.print(outfile);
 	return 0;
 }
