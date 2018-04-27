@@ -1,0 +1,40 @@
+ProgramName:	Program-3
+Author:			Corbin Matamoros
+Description:	
+	This program will read in a bunch of animals names
+from an input file into a doubly - linked list. It will then
+prompt the user to input a random value, "m" between 1 and 13
+(inclusive) and another random value between 1and RANDMAX. 
+It will afterwards read in a value from the input file
+again, find the length of that value, multiply it by "m" and
+move that product's number of spaces within the linked list.
+It will move to the right if the product is even and to the left
+otherwise. The animal whose node the product landed on will be
+deleted and the list will get smaller. Output will show only the
+11th dispatched animal, however.
+Course:			1063 Data Structures & ADT
+Semester:		Spring 2018
+Date:			04 27 2018
+
+First: - anteater
+- owl
+- lion
+- crab
+- narwhal
+- wallaby
+- trout
+- mouse
+- leopard
+- pony
+- shrew
+- human
+- dolphin
+- turkey
+- mink
+- gnu
+- stork
+- okapi
+- kudu
+- dotterel
+- badger
+WINNER: elephant-seal !!
